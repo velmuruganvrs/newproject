@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 28,
+        "name": "Login Page",
+        "description": "",
+        "id": "login-page-test;login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 171973375,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Open The Browser",
+            "match": {
+              "location": "DataProviderdatatable.Open_The_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4871437,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter username and pssword",
+            "match": {
+              "location": "DataProviderdatatable.entercredencial(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "Password"
+                ],
+                "line": 31
+              },
+              {
+                "cells": [
+                  "velmurugan",
+                  "9789679298"
+                ],
+                "line": 32
+              },
+              {
+                "cells": [
+                  "VAISHNU",
+                  "9789679299"
+                ],
+                "line": 33
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79791,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Logout page",
+            "match": {
+              "location": "DataProviderdatatable.teardown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@DataTableMap"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Test",
+    "description": "",
+    "id": "login-page-test",
+    "keyword": "Feature",
+    "uri": "D:/Selenium Wrokphase/PROJECT/BDDFrameTest/src/test/resources/Feature_File/dataprovider.feature"
+  }
+]

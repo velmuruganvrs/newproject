@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.176925">
+<testcase classname="Login Page Test" name="Login Page" time="0.176925">
+<system-out><![CDATA[Given Open The Browser......................................................passed
+Then Enter username and pssword.............................................passed
+Then Logout page............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
